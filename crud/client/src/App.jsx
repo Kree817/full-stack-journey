@@ -20,8 +20,8 @@ function App() {
       <Header/>
       <br/>
         <Routes>
-            <Route path='/' element={<About/>}></Route>
-            <Route path='/list' element={<ListStudents/>}></Route>
+            <Route path='/about' element={<About/>}></Route>
+            <Route path='/' element={<ListStudents/>}></Route>
             <Route path='/create' element={<CreateStudents/>}></Route>
             <Route path='/update' element={<UpdateStudents/>}></Route>
         </Routes>

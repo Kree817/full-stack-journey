@@ -1,6 +1,9 @@
 import React from "react";
 import Container from "react-bootstrap/esm/Container";
 
+import '../App.css';
+import img2 from "../assets/img2.png";
+
 function About(){
     return(
         <Container>
@@ -8,7 +11,11 @@ function About(){
             <h1>
                 Hi! This is a Basic Site for CRUD Operations.
             </h1>
-            <img src='./assets/img1.png'></img>
+
+            <div>
+            <img src={img2} className="slider-image"></img>
+            </div>
+
         </div>
         </Container>
     )

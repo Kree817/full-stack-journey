@@ -14,6 +14,7 @@ function ListStudents() {
           <th>#</th>
           <th>First Name</th>
           <th>Last Name</th>
+          <th>Gender</th>
           <th>Course</th>
         </tr>
       </thead>
@@ -22,17 +23,19 @@ function ListStudents() {
           <td>1</td>
           <td>Mark</td>
           <td>Otto</td>
+          <td>Male</td>
           <td>BIT</td>
         </tr>
         <tr>
           <td>2</td>
           <td>Jacob</td>
           <td>Thornton</td>
+          <td>Male</td>
           <td>BSc.CSSE</td>
         </tr>
         <tr>
           <td>3</td>
-          <td colSpan={3}>Colspan Test</td>
+          <td colSpan={4}>Colspan Test</td>
         </tr>
       </tbody>
     </Table>

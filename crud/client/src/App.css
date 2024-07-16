@@ -1,0 +1,10 @@
+.slider-image{
+    height: 500px;
+    width: 1000px;
+}
+
+.header-wrapper a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+}
